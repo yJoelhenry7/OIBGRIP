@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+</head>
+<body>
+    <header class="center ">
+         <h1 class="multicolor-text">
+           TO-DO LIST
+         </h1>
+    </header>
+    <main class="flex">
+        <section class="flex-child"> 
+            <div id="new-task">
+                <form id="new-task-form">
+                    <h3 class="center"> N E W - T A S K </h3>
+                    <input type="text" id="new-task-title" placeholder=" T I T L E" required>
+                    <input type="text" placeholder=" D E S C R I P T I O N" id="new-task-desc" required>
+                    <input type="text" onfocus="(this.type='date')"name="new-date" id="new-task-date"  placeholder=" D A T E" required>
+                     <input type="submit" class="submit" value="Save">
+                </form>
+            </div>
+        </section>
+        <section class="task-list flex-child">
+			<section class="task-list">
+                <h2>T A S K S</h2>
+                <table id="table">
+                    <tr class="hide" id="task_head">
+                        <th>TITLE</th>
+                        <th>DESCRIPTION</th>
+                        <th>TIME</th>
+                        <th>DELETE</th>
+                        <TH>COMPLETE</TH>
+                    </tr>
+                    <!-- <tr>
+                        <td>TITLE</td>
+                        <td>DESCRIPTION</td>
+                        <td>TIME</td>
+                        <td><button class="delete del">Delete</button></td>
+                        <td><button class="complete">Complete</button></td>
+                    </tr> -->
+                </table>
+                <h2>C O M P L E T E D -  T A S K S</h2>
+                <table id="complete-tab">
+                    <tr class="hide" id="complete_head" >
+                        <th>TITLE</th>
+                        <th>DESCRIPTION</th>
+                        <th>DELETE</th>
+                    </tr>
+                </table>
+            </section>
+
+    </main>
+    <script src="script.js" defer ></script>
+</body>
+</html>

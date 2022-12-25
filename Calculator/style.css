@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+body{
+   padding: 0;
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   font-family: 'Poppins', sans-serif;
+   align-items: center;
+   min-height: 100vh;    
+   background: rgb(0, 140, 187);
+}
+.container{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+.button{
+    width: 4.5rem;
+    height: 4rem;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 8px;
+    font-style: bold;
+    background-color: rgb(174, 225, 244);
+}
+.btn{
+    width: 4.5rem;
+    height: 4rem;
+    font-size : 20px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 6px;
+    color: rgb(0, 101, 141);
+    background-color: rgb(92, 203, 243);
+}
+.size{
+    font-size: 26px;
+    font-weight: bolder;
+    color: rgb(0, 101, 141);
+    background-color: rgb(92, 203, 243);
+}
+.enter{
+    width: 10rem;
+    height: 4rem;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px; 
+    background-color: rgb(0, 80, 239);
+    color: white;
+    border-radius: 8px;
+}
+.display{
+    background-color: rgb(151, 227, 255);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 5px;
+}
+.display1 #screen{
+    background: rgb(151, 227, 255);
+    width: 24vw;
+    height: 3vh;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+.display2 #answer{
+    background:rgb(151, 227, 255);
+    width: 24vw;
+    height: 6vh;
+    font-size: 35px;
+    text-align: right;
+    border: none;
+    outline: none;
+}

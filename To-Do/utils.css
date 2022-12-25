@@ -1,0 +1,24 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display: flex;
+}
+.flex-child {
+    flex: 0.3;
+} 
+.flex-child:first-child {
+    margin-right: 3rem;
+    margin-left: 3rem;
+} 
+.size{
+    font-size: 1rem;
+}
+.hide{
+    display: none;
+}
+.unhide{
+   display: contents;
+}

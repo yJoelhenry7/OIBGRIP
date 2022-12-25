@@ -1,0 +1,170 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+   background: rgb(0, 0, 0)
+}
+
+.multicolor-text {
+    text-align: center;
+    background: linear-gradient(to left,
+            violet,
+            indigo,
+            blue,
+            green,
+            yellow,
+            orange,
+            red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#new-task-form{
+    margin-top: 5rem;
+    padding: 0.5rem;
+    border-radius: 50px;
+    box-shadow:  6px 6px 6px #cbced1,  -6px -6px 6px rgba(91, 91, 91, 0.158);
+}
+#new-task-form input ,#new-task-form button {
+    display: block;
+    margin: 1rem 2rem;
+    width: 20rem;
+    height: 2rem;
+    padding: 0;
+    border: none;
+}
+input ,button{
+    display: block;
+    margin: 1rem 2rem;
+}
+input:hover,button:hover{
+    border-bottom: 1px solid balck;
+}
+textarea{
+    display: block;
+    margin: 1rem 2rem;
+    width: 20rem;
+}
+.task-list {
+	padding: 1rem;
+}
+
+.task-list h3 {
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: var(--grey);
+	margin : 0 4.5rem;
+}
+.task-list input, .task-list button{
+    appearance: none;
+	border: none;
+	outline: none;
+	background: none;
+}
+#tasks .task {
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--darkest);
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+}
+.task .content {
+	flex: 1 1 0%;
+	display: flex;
+}
+.task .actions {
+	display: flex;
+	margin: 0 -0.5rem;
+}
+#table {
+  
+    border-collapse: collapse;
+    width: 180%;
+    border-radius: 7px;
+  }
+  
+  #table td, #table th {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+  }
+  
+  #table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+  
+  #table tr:hover {
+    background-color: #ddd;
+}
+  
+  #table th {
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ff7700;
+    color: white;
+  }
+  .delete{
+    color: crimson;
+    border-radius: 7px;
+  }
+ .delete:hover{
+    cursor: pointer;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 232, 232);
+  }
+  .complete {
+	color: rgb(0, 216, 11);
+    border-radius: 7px;
+}
+.complete:hover{
+    cursor: pointer;
+    background: rgb(0, 216, 11);
+    color: rgb(0, 0, 0);
+}
+.comtitle{
+    font-size: 2rem;
+    border: 1px solid black;
+    padding: 1rem;
+}
+.comdel{
+    color: crimson;
+    border-radius: 7px;
+}
+
+#complete-tab{
+    border-collapse: collapse;
+    width: 180%;
+  }
+  
+  #complete-tab td, #complete-tab th {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+  }
+  
+  #complete-tab tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+  
+ #complete-tab tr:hover {
+    background-color: #ddd;
+}
+  
+#complete-tab th {
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #002fff;
+    color: white;
+  }
+.submit{
+    background-color: rgb(11, 210, 250);
+    color: rgb(25,25,25);
+    border-radius: 7px;
+    border: none;
+    outline:none
+}
